@@ -19,4 +19,5 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 scrivo una funzione "for" per stampare in console numeri da 1 a 100
     se il risultato e un multiplo di 3 stampa "Fizz"
     se il risultato e un multiplo di 5 stampa "Buzz"
-    se il risultato e sia multiplo di 3 che di 5 stampa "FizzBuzz"
+     oppure se il risultato e sia multiplo di 3 che di 5 stampa "FizzBuzz"
+     creiamo un contenitore <div></div> con al interno l'elemento corrispondente (Fizz, Buzz, FizzBuzz)
