@@ -11,7 +11,13 @@ for (let i = 0; i <= 100; i++){
     }else(i % 3 === 0 && i % 5===0);{
         console.log('FizzBuzz');
     }
-
+    let divElement = document.createElement('div');
+    divElement.classList.add('Fizz');
+    let contenitore = document.getElementById('container');
+    contenitore.append('Fizz');
+    divElement.appendChild(div);
+    
+    
 }
 
 
