@@ -39,10 +39,3 @@ for (let i = 0; i <= 100; i++){
 }
 
 
-
-// let divElement = document.createElement('div');
-// divElement.classList.add('Fizz');
-// let contenitore = document.getElementById('container');
-// contenitore.append('Fizz');
-// divElement.appendChild(div);
-// console.log()
