@@ -1,7 +1,47 @@
-#container{
-    background-color: brown;
-    color: white;
+
+h1{
+    display: block;
+    color: brown;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+div{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    background-color: brown;
+}
+
+.fizz{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 4px solid green;
+    border-radius: 25px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.buzz{
+    background-color: rgb(33, 49, 194);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 5px solid yellow;
+    margin: 1rem;
+    align-items: center;
+}
+
+.fizzbuzz{
+    background-color: rgb(135, 33, 194);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 12px solid rgb(51, 216, 51);
+    margin: 1rem;
+    align-items: center;
 }
